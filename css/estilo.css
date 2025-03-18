@@ -361,6 +361,7 @@ li{
     }
     .profissao a {
         font-size: 14px;
+        align-content: center;
         text-align: center;
         margin: 0 0 0 60px;
     }
