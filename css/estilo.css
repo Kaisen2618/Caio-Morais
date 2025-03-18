@@ -1,40 +1,34 @@
 a{
     text-decoration: none;
 }
-
 li{
     list-style: none;
 }
-
 #header{
     display: flex;
     width: 100%;
-    height: 747px;
-    background-color:#9E8C6C;
+    background-color: blueviolet;
 }
-
 #main{
     display: flex;
 }
-
 #footer{
     width: 100%;
+    height: 547px;
     display: flex;
     text-align: center;
+    align-items: center;
     justify-content: center;
     background-color: #9E8C6C;
 }
-
 .perfil img{
     margin: 180px 0 217px 165px;
 }
-
 .profissao{
     display: flex;
     flex-direction: column;
     margin: 180px 0 0 125px;
 }
-
 .profissao p{
     font-weight: 700;
     font-size: 18px;
@@ -42,7 +36,6 @@ li{
     letter-spacing: 2px;
     color: #9E8C6C;
 }
-
 .profissao h1 {
     width: 500px;
     height: 250px;
@@ -52,7 +45,6 @@ li{
     letter-spacing: -2.17px;
     margin: 0 ;
 }
-
 .profissao a{
     align-content: center;
     text-align: center;
@@ -61,29 +53,348 @@ li{
     color: white;
     background-color: #0699A6;
 }
-
 .skills{
     width: 350px;
-    height: 1200px;
-    margin: 96px 0 74px 165px;
+    margin: 96px 0 0 165px;
 }
+.skillset{
+    margin-bottom: 100px;
+}
+.skillset h2{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    color: #9E8C6C;
+}
+.skillset p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    letter-spacing: 0px;
 
+}
+.awards{
+    margin-bottom: 100px;
+}
+.awards h2{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    color: #9E8C6C;
+}
+.awards p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    letter-spacing: 0px;
+}
+.carrer-traits{
+    margin-bottom: 100px;
+}
+.carrer-traits h2{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    color: #9E8C6C;
+}
+.carrer-traits p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    letter-spacing: 0px;
+}
+.recents-works h2{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    color: #9E8C6C;
+}
+.recents-works a{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 3%;
+    letter-spacing: 0px;
+    color: #0699A6;
+}
+.recents-works ul{
+   padding: 0;
+}
+.recents-works span{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 34px;
+    letter-spacing: 0px;
+    color: #0699A6;
+}
+.recents-works{
+    margin-bottom: 100px;
+}
 .about-me-box{
     width: 635px;
-    height: 1200px;
-    margin: 77px 0 80px 138px;
+    height: auto;
+    margin: 77px 0 0 138px;
 }
-
+.about-me h2{
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0px;
+}
+.about-me p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34 px;
+    letter-spacing: 0px;
+    margin: 20px 0 80px 0;
+}
+.experience h2{
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0px;    
+}
 .search {
     width: 635px;
     height: 60px;
+    margin: 20px 0;
     align-content: center;
     background-color: #F5F3F0;
 }
-
 .search p{
     font-weight: 400px;
     font-size: 18px;
     line-height: 24px;
     letter-spacing: 2px;
+}
+
+.break1{
+    width: 71px;
+    height: 10px;
+    margin-bottom: 66px;
+    background-color: #0699A6;
+}
+.dropbox p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    letter-spacing: 0;
+    margin-bottom: 66px;
+}
+.dropbox h2{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #9E8C6C;
+}
+.outboundengine p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    letter-spacing: 0;
+    margin-bottom: 66px;
+}
+.outboundengine h2{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #9E8C6C;
+}
+.scrypt p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    letter-spacing: 0;
+    margin-bottom: 66px;
+}
+.scrypt h2{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #9E8C6C;
+}
+.pinger p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    letter-spacing: 0;
+    margin-bottom: 66px;
+}
+.pinger h2{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #9E8C6C;
+}
+.break2{
+    width: 71px;
+    height: 10px;
+    margin-bottom: 70px;
+    background-color: #0699A6;
+}
+.education h3{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    margin-bottom: 66px;
+    color: #9E8C6C;
+}
+.education h2{
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0px;
+}
+.education p{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #9E8C6C;
+}
+.break3{
+    width: 71px;
+    height: 10px;
+    margin-bottom: 70px;
+    background-color: #0699A6;
+}
+.recents-works2{
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0px;
+}
+.recents-works2 p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height:34px;
+    letter-spacing: 0px;
+}
+.projects{
+    display: inline-block;
+    text-align: left;
+}
+.projects img{
+    margin-bottom: 7px;
+    display: block;
+}
+
+.projects h3, .projects ul{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+}
+.projects h3{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    margin: 0;
+    color: #9E8C6C;
+}
+.projects ul{
+    list-style: none;
+    padding: 0;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 34px;
+    letter-spacing: 0%;
+    margin: -5px 0 0 80px;
+}
+.projects a{
+    color: #0699A6;
+}
+.get-in-touch h2{
+    font-weight: 900;
+    font-size: 66px;
+    line-height: 82px;
+    letter-spacing: -1.44px;
+}
+.contato p{
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0px;
+    color: #0699A6;
+    margin:0 ;
+}
+
+.contato img{
+    margin: 20px 20px 0 20px;
+}
+
+@media screen and (max-width:720px){
+   #header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 596px;
+   }
+   .perfil img {
+    width: 100px;
+    margin:80px 0 30px 0;
+    }
+    .profissao{
+        margin:0;
+    }
+    .profissao p {
+        text-align: center;
+        font-size: 14px;
+        margin: 0 0 14px 0;
+    }
+    .profissao h1 {
+        font-size: 56px;
+        width: 350px;
+        height: auto;
+        line-height: 100%;
+        margin:0 0 40px 0 ;
+    }
+    .profissao a {
+        font-size: 14px;
+        margin: 0 0 0 60px;
+    }
+    #main {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .about-me-box{
+        width: 100%;
+        margin: 0 0 0 20px;
+    }
+    .search {
+        width: 310px;
+        height: 80px;
+    }
+    .projects ul{
+        display: inline-block;
+        vertical-align: top;
+        margin: -50px 0 0 200px;
+        padding: 0;
+    }
+    .skills{
+        width: 100%;
+        margin: 96px 0 0 20px;
+    }
+    #footer{
+        height: 500px;
+    }
+    .get-in-touch h2{
+        font-size: 40px;
+        margin: 100px 0 40px 0;
+    }
+    .email p{
+        width: 290px;
+        word-wrap: break-word;
+    }
 }
