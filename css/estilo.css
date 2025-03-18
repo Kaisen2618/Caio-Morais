@@ -7,7 +7,7 @@ li{
 #header{
     display: flex;
     width: 100%;
-    background-color: blueviolet;
+    background-color: #f5f3f0;
 }
 #main{
     display: flex;
@@ -19,7 +19,7 @@ li{
     text-align: center;
     align-items: center;
     justify-content: center;
-    background-color: #9E8C6C;
+    background-color: #f5f3f0;
 }
 .perfil img{
     margin: 180px 0 217px 165px;
