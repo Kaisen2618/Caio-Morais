@@ -35,7 +35,7 @@ li{
     text-align: center;
     align-items: center;
     justify-content: center;
-    background-color: #f5f3f0;
+    background-color: #0663A6;
 }
 .perfil img{
     margin: 180px 0 217px 165px;
@@ -159,8 +159,7 @@ li{
     margin-bottom: 100px;
 }
 .about-me-box{
-    width: 635px;
-    height: auto;
+    width: 100%;
     margin: 77px 0 0 138px;
 }
 .about-me h2{
@@ -207,75 +206,11 @@ li{
     margin-bottom: 66px;
     background-color: #0699A6;
 }
-.dropbox p{
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 34px;
-    letter-spacing: 0;
-    margin-bottom: 66px;
-    font-family: PT Sans Narrow, sans-serif;
-}
-.dropbox h2{
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 24px;
-    letter-spacing: 1px;
-    color: #9E8C6C;
-    font-family: PT Sans Narrow, sans-serif;
 
-}
-.outboundengine p{
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 34px;
-    letter-spacing: 0;
-    margin-bottom: 66px;
-    font-family: PT Sans Narrow, sans-serif;
-}
-.outboundengine h2{
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 24px;
-    letter-spacing: 1px;
-    color: #9E8C6C;
-    font-family: PT Sans Narrow, sans-serif;
-}
-.scrypt p{
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 34px;
-    letter-spacing: 0;
-    margin-bottom: 66px;
-    font-family: PT Sans Narrow, sans-serif;
-}
-.scrypt h2{
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 24px;
-    letter-spacing: 1px;
-    color: #9E8C6C;
-    font-family: PT Sans Narrow, sans-serif;
-}
-.pinger p{
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 34px;
-    letter-spacing: 0;
-    margin-bottom: 66px;
-    font-family: PT Sans Narrow, sans-serif;
-}
-.pinger h2{
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 24px;
-    letter-spacing: 1px;
-    color: #9E8C6C;
-    font-family: PT Sans Narrow, sans-serif;
-}
 .break2{
     width: 71px;
     height: 10px;
-    margin-bottom: 70px;
+    margin:70px 0 70px 0;
     background-color: #0699A6;
 }
 .education h3{
